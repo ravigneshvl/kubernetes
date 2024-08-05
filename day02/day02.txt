@@ -1,0 +1,24 @@
+mkdir day02
+cd day02/
+git clone https://github.com/docker/getting-started-app.git
+ls -lrt
+cd getting-started-app/
+ls -lrt
+touch Dockerfile
+vi Dockerfile
+docker build -t day02  .
+docker images
+docker login
+docker tag day02 ravigneshvl/repo:latest
+docker images
+docker push ravigneshvl/repo:latest
+docker rmi a9
+docker rmi -f a9
+docker images
+docker pull ravigneshvl/repo:latest
+docker images
+docker run -dp 3000:3000 ravigneshvl/repo
+docker ps
+docker exec -it elegant_hoover sh
+docker logs elegant_hoover
+exit
