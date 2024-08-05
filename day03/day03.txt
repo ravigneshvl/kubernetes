@@ -1,0 +1,34 @@
+1772  vi Dockerfile
+ 1773  mv Dockerfile todoapp-docker/
+ 1775  cd todoapp-docker/
+ 1786  docker build -t todo  .
+ 1787  vi Dockerfile
+ 1788  docker build -t todo  .
+ 1789  docker images
+ 1790  docker run -dp 3000:3000 e0
+ 1791  docker ps
+ 1792  docker --help
+ 1793  docker inspect infallible_antonelli
+ 1794  ifconfig
+ 1795  curl http://127.0.0.1:3000/
+ 1796  docker inspect infallible_antonelli
+ 1797  curl http://172.17.0.2:3000/
+ 1798  docker network
+ 1799  docker network ls
+ 1800  docker network rm 3e d8
+ 1801  docker stop infallible_antonelli
+ 1802  docket rm infallible_antonelli
+ 1803  docker rm infallible_antonelli
+ 1804  docker network rm 3e d8
+ 1805  docker network
+ 1806  docker network  ls
+ 1807  docker network rm none
+ 1808  docker run -dp 3000:3000 e0
+ 1809  docker ps
+ 1810  docker inspect e4
+ 1811  docker ps
+ 1812  docker stop quizzical_spence
+ 1813  docker rm quizzical_spence
+ 1814  docker ps -a
+ 1815  ls
+ 1816  cd ..
